@@ -255,6 +255,11 @@
     border-radius: 8px;
 }
 
+.facts-stats-detail img {
+    width: 45px;
+    height: 45px;
+}
+
 .facts-stats-detail h1 {
     font-size: 45px;
     font-weight: 600;
@@ -267,3 +272,50 @@
     font-weight: 600;
     color: #727272;
 }
+
+/* some facts style ends here  */
+.sponsor-heading {
+    text-align: center;
+
+}
+
+.sponsor-heading h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin: 180px 0px 24px 0px;
+}
+
+.sponsor-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsor-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sponsor-logo img {
+    width: 152px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
+
+/* some facts ends here  */
+
+/* footer style starts here  */
+footer {
+    text-align: center;
+    background-color: #FFF4E7;
+    margin: 130px 0px 216px 0px;
+}
+
+footer p {
+    padding: 38px 0px 38px 0px;
+}
+
+/* footer style ends here  */
