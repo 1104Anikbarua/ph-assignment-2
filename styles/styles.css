@@ -77,6 +77,8 @@
 }
 
 /* top banner style ends here */
+
+/* middle banner starts here  */
 .middle-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -129,4 +131,86 @@
     background-color: #FF900E;
     border: none;
     border-radius: 8px;
+}
+
+/* middle banner ends here  */
+
+/* feature details start here  */
+.line {
+    width: 10px;
+    background-color: #FF900E;
+    height: 106px;
+    margin-bottom: -145px;
+
+}
+
+.feature-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 54px;
+}
+
+.card-heading h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-left: 26px;
+}
+
+.card-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.card {
+    width: 576px;
+    height: 171px;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+.card h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.feature-detail-img {
+    width: 708px;
+    height: 982px;
+    background-image: url('/images/architect.png');
+    background-repeat: no-repeat;
+}
+
+.card-experience {
+    margin-top: 859px;
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    padding: 46px 42px 45px 42px;
+}
+
+.card-experience h1 {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: end left;
+}
+
+.card-experience span {
+    font-size: 25px;
+    font-weight: 500;
 }
