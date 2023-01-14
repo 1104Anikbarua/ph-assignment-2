@@ -77,3 +77,56 @@
 }
 
 /* top banner style ends here */
+.middle-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 85px;
+    column-gap: 73px;
+}
+
+.middle-banner-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.middle-banner-heading h1 {
+    margin-bottom: 24px;
+}
+
+.first {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.second {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.third {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.middle-banner-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.middle-banner-heading button {
+    margin-top: 32px;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
