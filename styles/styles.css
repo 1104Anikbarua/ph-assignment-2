@@ -49,7 +49,7 @@
     font-size: 64px;
     font-weight: 700;
     /* text-align: center; */
-    margin: 0;
+    margin: 0px;
 }
 
 .top-banner p {
@@ -141,7 +141,6 @@
     background-color: #FF900E;
     height: 106px;
     margin-bottom: -145px;
-
 }
 
 .feature-detail {
@@ -204,9 +203,12 @@
     padding: 46px 42px 45px 42px;
 }
 
-.card-experience h1 {
+.card-experience button {
     font-weight: 700;
     font-size: 65px;
+    border: none;
+    background-color: #FF900E;
+    color: #FFFFFF;
     /* margin: 0; */
     /* text-align: end left; */
 }
@@ -271,6 +273,21 @@
     font-size: 20px;
     font-weight: 600;
     color: #727272;
+    position: relative;
+    animation-duration: 8s;
+    animation-name: example;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    0% {
+        left: -1500px;
+    }
+
+    100% {
+        left: 0px;
+    }
+
 }
 
 /* some facts style ends here  */
@@ -306,6 +323,33 @@
 }
 
 /* some facts ends here  */
+/* stats starts here  */
+.page-stats {
+    width: 576px;
+    height: 171px;
+    margin: 0 auto;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 30px 0px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+.page-stats h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.page-stats p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+/* page stats ends here  */
 
 /* footer style starts here  */
 footer {
@@ -319,3 +363,131 @@ footer p {
 }
 
 /* footer style ends here  */
+
+/* applying media query */
+
+@media screen and (max-width:668px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .header-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #131313;
+    }
+
+    .header-pages {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .top-banner h1 {
+        font-size: 30px;
+        font-weight: 700;
+        /* text-align: center; */
+        margin: 0;
+    }
+
+    .top-banner img {
+        width: 90%;
+        height: auto;
+    }
+
+    .middle-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+    }
+
+    .first {
+        font-size: 30px;
+    }
+
+    .second {
+        font-size: 30px;
+    }
+
+    .third {
+        font-size: 30px;
+    }
+
+    .middle-banner-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-detail {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        margin-top: 20px;
+    }
+
+    .line {
+        width: 10px;
+        background-color: #FF900E;
+        height: 106px;
+        margin-bottom: -110px;
+    }
+
+    .card-heading h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #131313;
+        margin-left: 26px;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+    }
+
+    .feature-detail-img {
+        width: 90%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .card-experience {
+        width: 75%;
+        height: auto;
+    }
+
+    .facts-stats {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsor-heading h1 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .sponsor-logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsor-logo img {
+        margin-bottom: 20px;
+    }
+
+    .page-stats {
+        width: 80%;
+        height: auto;
+    }
+
+    .footer {
+        margin: 0 auto;
+    }
+}
