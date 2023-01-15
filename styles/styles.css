@@ -450,7 +450,7 @@ footer p {
     }
 
     .feature-detail-img {
-        width: 90%;
+        width: 100%;
         height: auto;
         background-position: center;
         background-size: cover;
@@ -458,7 +458,7 @@ footer p {
     }
 
     .card-experience {
-        width: 75%;
+        width: 77%;
         height: auto;
     }
 
